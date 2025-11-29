@@ -107,8 +107,8 @@ test-watch:
 deploy-prep:
 	@echo "Preparing Next.js app for deployment..."
 	npm install
-	npx prisma migrate deploy
-	npx prisma generate
+# 	npx prisma migrate deploy
+# 	npx prisma generate
 	npm run build
 
 # ===========================

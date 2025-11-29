@@ -10,7 +10,8 @@
 		"start:staging": "next start -p 3003",
 		"start:prod": "next start -p 3004",
 		"lint": "eslint",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+    	"format:check": "prettier --check ."
 	},
 	"dependencies": {
 		"next": "16.0.3",
@@ -24,6 +25,9 @@
 		"@types/react-dom": "^19",
 		"eslint": "^9",
 		"eslint-config-next": "16.0.3",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "3.7.2",
+		"prettier-plugin-tailwindcss": "^0.7.1",
 		"tailwindcss": "^4",
 		"typescript": "^5"
 	}
